@@ -39,9 +39,9 @@ public class MainActivity extends AppCompatActivity {
         int id_ads_click = getResources().getIdentifier("ic_baseline_ads_click_24", "drawable", getPackageName());
         int id_alarm = getResources().getIdentifier("ic_baseline_alarm_24", "drawable", getPackageName());
         int id_album = getResources().getIdentifier("ic_baseline_album_24", "drawable", getPackageName());
-        Data.add(new data(id_alarm, "Nam", "Nam đẹp trai"));
-        Data.add(new data(id_ads_click, "Nam lần 2", "Nam thông minh"));
-        Data.add(new data(id_album, "Nam lần 3", "Nam học giỏi"));
+        Data.add(new data(id_alarm, "Nam", "Nam đẹp trai Nam đẹp trai Nam đẹp trai Nam đẹp trai Nam đẹp trai Nam đẹp trai "));
+        Data.add(new data(id_ads_click, "Nam lần 2", "Nam thông minh Nam thông minh Nam thông minh Nam thông minh Nam thông minh"));
+        Data.add(new data(id_album, "Nam lần 3", "Nam học giỏi Nam học giỏiNam học giỏi Nam học giỏiNam học giỏi"));
 
         MyAdapter adapter = new MyAdapter(Data);
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
